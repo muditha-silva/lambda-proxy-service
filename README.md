@@ -99,7 +99,7 @@ Please refer to following diagram.
 
 Using the AWS console create the Lambda fuction `lambda-proxy-api`. 
 
-- Runtime Java 8
+- Runtime `Java 8`
 - Handler `io.lambda.proxy.lambda.LambdaFunctionHandler`
 - Existing Role `lambda_basic_execution`
 
