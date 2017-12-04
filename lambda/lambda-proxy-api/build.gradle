@@ -1,0 +1,48 @@
+group 'io.lambda-proxy-api'
+version '1.0.0'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile (
+			'com.google.guava:guava:20.0',
+			'org.apache.commons:commons-collections4:4.1',
+			'org.apache.commons:commons-lang3:3.6',
+			'com.amazonaws:aws-lambda-java-core:1.2.+',
+			'com.amazonaws:aws-lambda-java-events:2.0.+',
+			'com.amazonaws:aws-java-sdk-dynamodb:1.11.+',			
+			'com.amazonaws:aws-lambda-java-log4j2:1.0.0',
+			'com.squareup.okhttp3:okhttp:3.6.0',
+			'com.google.code.gson:gson:2.8.0'
+			)
+	testCompile 'junit:junit:4.+', {
+		exclude group: 'org.hamcrest', module: 'hamcrest-core'
+	}
+	testCompile 'org.hamcrest:hamcrest-all:1.+'
+	testCompile 'org.mockito:mockito-core:2.+'	
+}
+sourceSets {
+	main {
+		java { srcDirs = ['src/main/java']}
+	}
+	test {
+		java { srcDirs = ['src/test/java']}
+	}
+}
+
+task buildZip(type: Zip) {
+	baseName = "payload"
+	from compileJava
+	from processResources
+	into('lib') { from configurations.runtime }
+}
+
+build.dependsOn buildZip

@@ -1,0 +1,35 @@
+{
+    "resource": "/v1/employee",
+    "path": "/v1/employee",
+    "httpMethod": "POST",
+    "headers": null,
+    "queryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "path": "/v1/employee",
+        "accountId": "",
+        "resourceId": "",
+        "stage": "test-invoke-stage",
+        "requestId": "test-invoke-request",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": "",
+            "cognitoIdentityId": null,
+            "caller": "",
+            "apiKey": "test-invoke-api-key",
+            "sourceIp": "test-invoke-source-ip",
+            "accessKey": "",
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": "",
+            "userAgent": "Apache-HttpClient/4.5.x (Java/1.8.0_144)",
+            "user": ""
+        },
+        "resourcePath": "/v1/employee",
+        "httpMethod": "POST",
+        "apiId": "js4o6av9ob"
+    },
+    "body": "[  \r\n   {  \r\n      \"id\":\"0001\",\r\n      \"type\":\"SWE\",\r\n      \"firstName\":\"XYZ\",\r\n      \"lastName\":\"PQR\",\r\n      \"addressLine1\":\"Address1\",\r\n      \"addressLine2\":\"Address2\",\r\n      \"postalCode\":\"900\",\r\n      \"city\":\"Colombo\",\r\n      \"countryCode\":\"SL\",\r\n      \"country\":\"Sri Lanka\"\r\n   }\r\n]",
+    "isBase64Encoded": false
+}

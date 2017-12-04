@@ -1,0 +1,37 @@
+{
+    "resource": "/v1/employee/{id}",
+    "path": "/v1/employee/001",
+    "httpMethod": "DELETE",
+    "headers": null,
+    "queryStringParameters": null,
+    "pathParameters": {
+        "id": "0002"
+    },
+    "stageVariables": null,
+    "requestContext": {
+        "path": "/v1/employee/{id}",
+        "accountId": "",
+        "resourceId": "",
+        "stage": "test-invoke-stage",
+        "requestId": "test-invoke-request",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": "",
+            "cognitoIdentityId": null,
+            "caller": "",
+            "apiKey": "test-invoke-api-key",
+            "sourceIp": "test-invoke-source-ip",
+            "accessKey": "",
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": "",
+            "userAgent": "Apache-HttpClient/4.5.x (Java/1.8.0_144)",
+            "user": "722185926503"
+        },
+        "resourcePath": "/v1/employee/{id}",
+        "httpMethod": "DELETE",
+        "apiId": "js4o6av9ob"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}
