@@ -99,6 +99,9 @@ Please refer to following diagram.
 
 Using the AWS console create the Lambda fuction `lambda-proxy-api`. 
 
+- Handler `io.lambda.proxy.lambda.LambdaFunctionHandler`
+- Existing Role `lambda_basic_execution`
+
 Please refer to following diagram.
 
 ![](https://github.com/muditha-silva/readme-images/blob/master/lambda1.png)
