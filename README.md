@@ -25,7 +25,7 @@ Purpose of this project is to provide serverless microservice implementation usi
 
 Following diagram shows the overall architecture of the Microservcie.
 
-![](https://github.com/muditha-silva/readme-images/lambda-proxy-service.png)
+![](https://github.com/muditha-silva/readme-images/blob/master/lambda-proxy-service.png)
 
 ### APIGateway 
 
@@ -33,7 +33,7 @@ APIGateway uses Lambda proxy integration, by doing so requests will be proxied t
 
 Please refer following diagram  
 
-![](https://github.com/muditha-silva/readme-images/apiGW.png)
+![](https://github.com/muditha-silva/readme-images/blob/master/apiGW.png)
 
 ### API endpoints 
 
@@ -95,14 +95,14 @@ Using the AWS console create an IAM Role `lambda_basic_execution` for the Lambda
 
 Please refer to following diagram.
 
-![](https://github.com/muditha-silva/readme-images/role.png)
+![](https://github.com/muditha-silva/readme-images/blob/master/role.png)
 
 Using the AWS console create the Lambda fuction `lambda-proxy-api`. 
 
 Please refer to following diagram.
 
-![](https://github.com/muditha-silva/readme-images/readme-images/1.png)
-![](https://github.com/muditha-silva/readme-images/readme-images/2.png)
+![](https://github.com/muditha-silva/readme-images/blob/master/1.png)
+![](https://github.com/muditha-silva/readme-images/blob/master/2.png)
 
 #### Lambda Function Build Command 
 
@@ -130,4 +130,4 @@ pi --zip-file fileb://build/distributions/payload-1.0.0.zip
 
 Following diagram shows the `Employee` table design
 
-![](https://github.com/muditha-silva/readme-images/EmployeeTable.png)
+![](https://github.com/muditha-silva/readme-images/blob/master/EmployeeTable.png)
