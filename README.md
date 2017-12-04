@@ -101,8 +101,8 @@ Using the AWS console create the Lambda fuction `lambda-proxy-api`.
 
 Please refer to following diagram.
 
-![](https://github.com/muditha-silva/readme-images/blob/master/1.png)
-![](https://github.com/muditha-silva/readme-images/blob/master/2.png)
+![](https://github.com/muditha-silva/readme-images/blob/master/lambda1.png)
+![](https://github.com/muditha-silva/readme-images/blob/master/lambda2.png)
 
 #### Lambda Function Build Command 
 
