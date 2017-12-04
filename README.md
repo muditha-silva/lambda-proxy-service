@@ -86,7 +86,7 @@ Following shows a sample a proxed request for the resource `/v1/employee` for th
 }
 ```
 
-This project includes a complete Lambda proxy implementation `lambda-proxy-service\lambda\lambda-proxy-api` using JAVA 8 with unit testing. 
+This project includes a complete Lambda proxy implementation `lambda\lambda-proxy-api` using JAVA 8 with unit testing. 
 Lambda function handler will invoke the appropriate invoker based on the request `resource` and `httpMethod`.
 
 #### Lambda function creation.
