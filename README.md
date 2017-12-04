@@ -46,7 +46,7 @@ Please refer following diagram
 
 APIGateway proxied the contents of the client’s HTTPS request to Lambda function for execution. Those contents include request metadata, request headers, and the request body. 
 
-Following shows a sample a proxed request for the resource `/v1/employee` `POST` operation.
+Following shows a sample a proxed request for the resource `/v1/employee` for the `POST` operation.
 
 ```
 {
