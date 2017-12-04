@@ -40,7 +40,7 @@ Please refer following diagram
 | Resource | `POST` | `GET` | `PUT` | `DELETE` |
 | ------ |  ------ | ------ | ------ | ------ |
 | `/v1/employee` | Bulk Create Employees | List Employees by Search Criteria | Bulk Update Employees | Delete Employees by ids | 
-| `/v1/employee/{id}` | NA | Retrieve a employee | Update a employee | Delete a employee
+| `/v1/employee/{id}` | N/A | Retrieve a employee | Update a employee | Delete a employee
 
 ### AWS Lambda
 
