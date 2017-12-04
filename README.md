@@ -3,7 +3,7 @@
 ## Overview
 
 In microservices approach, software is composed of small independent services that communicate over well-defined APIs.
-Serve less apps are architected such that developers can focus on their core competency—writing the actual business logic instead of responsibilities like operating system (OS) access control, OS patching, provisioning, right-sizing, scaling, and availability.
+Serve less apps are architected such that developers can focus on their core competencyâ€”writing the actual business logic instead of responsibilities like operating system (OS) access control, OS patching, provisioning, right-sizing, scaling, and availability.
 In serverless architecture, by implementing the microservices using `AWS APIGatewa`, `AWS Lambda` and `AWS DynamoDB` underlying AWS platform manages these responsibilities for you.
 
 Purpose of this project is to provide serverless microservice implementation using the following technologies. 
@@ -25,7 +25,7 @@ Purpose of this project is to provide serverless microservice implementation usi
 
 Following diagram shows the overall architecture of the Microservcie.
 
-![](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/blob/master/images/elb1.jpg)
+![](https://github.com/muditha-silva/readme-images/lambda-proxy-service.png)
 
 ### APIGateway 
 
@@ -33,7 +33,7 @@ APIGateway uses Lambda proxy integration, by doing so requests will be proxied t
 
 Please refer following diagram  
 
-![](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/blob/master/images/elb1.jpg)
+![](https://github.com/muditha-silva/readme-images/apiGW.png)
 
 ### API endpoints 
 
@@ -44,7 +44,7 @@ Please refer following diagram
 
 ### AWS Lambda
 
-APIGateway proxied the contents of the client’s HTTPS request to Lambda function for execution. Those contents include request metadata, request headers, and the request body. 
+APIGateway proxied the contents of the clientâ€™s HTTPS request to Lambda function for execution. Those contents include request metadata, request headers, and the request body. 
 
 Following shows a sample a proxed request for the resource `/v1/employee` `POST` operation.
 
@@ -95,9 +95,14 @@ Using the AWS console create an IAM Role `lambda_basic_execution` for the Lambda
 
 Please refer to following diagram.
 
+![](https://github.com/muditha-silva/readme-images/role.png)
+
 Using the AWS console create the Lambda fuction `lambda-proxy-api`. 
 
 Please refer to following diagram.
+
+![](https://github.com/muditha-silva/readme-images/readme-images/1.png)
+![](https://github.com/muditha-silva/readme-images/readme-images/2.png)
 
 #### Lambda Function Build Command 
 
@@ -124,3 +129,5 @@ pi --zip-file fileb://build/distributions/payload-1.0.0.zip
 ### AWS DynamoDB 
 
 Following diagram shows the `Employee` table design
+
+![](https://github.com/muditha-silva/readme-images/EmployeeTable.png)
