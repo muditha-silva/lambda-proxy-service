@@ -4,7 +4,7 @@
 
 In microservices approach, software is composed of small independent services that communicate over well-defined APIs.
 Serve less apps are architected such that developers can focus on their core competency—writing the actual business logic instead of responsibilities like operating system (OS) access control, OS patching, provisioning, right-sizing, scaling, and availability.
-In serverless architecture, by implementing the microservices using `AWS APIGatewa`, `AWS Lambda` and `AWS DynamoDB` underlying AWS platform manages those responsibilities for you.
+In serverless architecture, by implementing the microservices using `AWS APIGateway`, `AWS Lambda` and `AWS DynamoDB` underlying AWS platform manages those responsibilities for you.
 
 Purpose of this project is to provide serverless microservice implementation using the following technologies. 
 
