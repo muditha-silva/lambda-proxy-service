@@ -132,6 +132,8 @@ pi --zip-file fileb://build/distributions/payload-1.0.0.zip
 
 ### AWS DynamoDB 
 
+Using the AWS console create a DynomoDB table `Employee` with Hash Key `id`, with secondary index for `type`
+
 Following diagram shows the `Employee` table design
 
 ![](https://github.com/muditha-silva/readme-images/blob/master/EmployeeTable.png)
