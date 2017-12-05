@@ -1,4 +1,4 @@
-# Serverless Microservcie Implementation with AWS Lambda, AWS APIGateway and AWS DynamoDB
+# Serverless Microservices Implementation with AWS Lambda, AWS APIGateway and AWS DynamoDB
 
 ## Overview
 
