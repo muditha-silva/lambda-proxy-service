@@ -23,7 +23,7 @@ Purpose of this project is to provide serverless microservice implementation usi
 
 ## Architecture
 
-Following diagram shows the overall architecture of the Microservcie.
+Following diagram shows the overall architecture of the Microservice.
 
 ![](https://github.com/muditha-silva/readme-images/blob/master/lambda-proxy-service.png)
 
